@@ -41,6 +41,6 @@ lieApp.controller('twoController', ['$scope', '$resource', 'cityService' , funct
     $scope.city = cityService.city;
     $scope.weatherAPI=
         $resource("http://jsonplaceholder.typicode.com/posts")
-    
+
     
 }]);
